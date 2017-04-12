@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>AWSSDK.SimpleNotificationService.NetCore.Support</id>
+    <version>1.0.2</version>
+    <authors>Rex Lam</authors>
+    <owners>Rex Lam</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>AWS .Net SDK SimpleNotificationService support package</description>
+    <releaseNotes>Fix nuspec</releaseNotes>
+    <copyright>Copyright 2017</copyright>
+    <tags>AWS AWSSDK SNS Core</tags>
+    <dependencies>
+      <dependency id="AWSSDK.Core" version="3.3.11" />
+      <dependency id="AWSSDK.SimpleNotificationService" version="3.3.0.11" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin/Release/netstandard1.3/aws-sdk-net-core-support.dll" target="lib/netstandard1.3" />
+  </files>
+</package>
